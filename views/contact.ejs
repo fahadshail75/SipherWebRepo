@@ -1,0 +1,63 @@
+
+<% layout('layouts/boilerplate') %>
+
+<section class="contact-section">
+    <div class="container">
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>Drop us a message for any query</p>
+        </div>
+
+        <div class="contact-details">
+            <div class="info-block">
+                <i class="fa fa-envelope"></i>
+                <h3>Email Here</h3>
+                <p><a href="mailto:Info@sipherweb.com">Info@sipherweb.com</a></p>
+            </div>
+
+            <div class="info-block">
+                <i class="fa fa-map-marker"></i>
+                <h3>Location Here</h3>
+                <p>First Floor, C-1 / 364, Near Muglai Hutz, Sector G, Jankipuram, Tedhi Pulia, Lucknow</p>
+            </div>
+
+            <div class="info-block">
+                <i class="fa fa-phone"></i>
+                <h3>Call Here</h3>
+                <p><a href="tel:9125545607">9125545607</a>, <a href="tel:9125525608">9125525608</a></p>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h3>Drop us Message for any Query</h3>
+            <form action="#" method="post">
+                <div class="input-field">
+                    <label for="name">Your name*</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="email">Your email*</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="phone">Your phone*</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="address">Your address*</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+
+                <div class="input-field">
+                    <label for="message">Write something here (Optional)</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
